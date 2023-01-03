@@ -1,0 +1,42 @@
+@media (max-width: 650px) {
+    #header .btn-mobile-menu {
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav {
+        display: inline-block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    .header_slide {
+        height: 350px;
+    }
+    .header_slide-bg-icon {
+        font-size: 10px;
+    }
+    .ListNut {
+        margin-bottom: 0px;
+    }
+    .product_items {
+        float: none;
+        width: 100%;
+        height: 300px;
+        display: contents;
+    }
+    .info_items {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .product_img {
+        height: 250px;
+    }
+}

@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.grid {
+    margin: 0 10px;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 18.%;
+    height: auto;
+}
+
+#header {
+    background-color: black;
+    height: 45px;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+    line-height: 45px;
+}
+
+#nav li ul {
+    list-style-type: none;
+}
+
+#nav>li>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.4s;
+}
+
+li:hover>a {
+    background-color: #ccc;
+    transition-timing-function: linear;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#header .btn-mobile-menu {
+    width: 60px;
+    float: right;
+}
+
+#header .fa-bars {
+    line-height: 45px;
+    color: white;
+    padding-left: 19px;
+    font-size: 20px;
+}
+
+#header .btn-mobile-menu:hover {
+    background-color: #ccc;
+}
+
+#header div:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#header .btn-mobile-menu {
+    display: none;
+}
+
+.header_slide {
+    border-radius: 2px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header_slide-bg {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    transition: ease 0.6s;
+}
+
+.header_slide-bg-img {
+    width: 100%;
+}
+
+.header_slide-bg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_slide-bg-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.header_slide-bg-icon i {
+    font-size: 300%;
+    color: white;
+}
+
+.ListNut {
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.ItemNut {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    background-color: white;
+    margin-left: 8px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.slider-product-one-content-title .a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.active {
+    background-color: #ed1c24;
+}
+
+.title p {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.product_list {
+    display: inline-block;
+    width: 100%;
+}
+
+.product_items {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px 20px 10px;
+}
+
+.product_img {
+    width: 100%;
+    height: 350px;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.desc {
+    padding: 0 10px;
+}
+
+.product_img:hover {
+    transform: scale(1.02) translateZ(0);
+    cursor: pointer;
+}
+
+.product_code {
+    padding: 20px 0;
+    font-size: 35px;
+    border-radius: 3px;
+}
+
+.product_desc {
+    line-height: 22px;
+    text-align: left;
+}
+
+.btn_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: wheat;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+
+.btn_details:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-timing-function: linear;
+}
+
+.wrap_product_sale {
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.product_sale {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    margin-top: 70px;
+}
+
+.img_sale {
+    width: 100%;
+    height: 400px;
+}
+
+.sale_title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.3);
+    margin: 76px 25%;
+    color: white;
+}
+
+.sale_title p {
+    text-align: center;
+    font-style: italic;
+}
+
+.wrap_infor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.infor_list {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.info_items {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 10px;
+}
+
+.footer_address {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    margin-top: 15px;
+}
